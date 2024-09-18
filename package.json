@@ -1,0 +1,33 @@
+{
+  "name": "@fangyiminglode/artplayer-plugin-danmuku",
+  "version": "1.0.0",
+  "description": "artplayer弹幕插件",
+  "main": "dist/artplayer-plugin-danmuku.js",
+  "legacy": "dist/artplayer-plugin-danmuku.legacy.js",
+  "browserslist": "last 1 Chrome version",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepublishOnly": " npm run build"
+  },
+  "keywords": [],
+  "authors": [
+    "fangyiminggo@outlook.com"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.12.0",
+    "@parcel/core": "^2.12.0",
+    "@parcel/transformer-inline-string": "^2.12.0",
+    "@parcel/transformer-less": "^2.12.0",
+    "artplayer": "^5.1.7"
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+}
